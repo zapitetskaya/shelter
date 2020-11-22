@@ -65,6 +65,7 @@ body {
 
     width: 100%;
     max-width: 1280px;
+    max-height: 810px;
     margin: 0 auto;
 }
 
@@ -72,7 +73,7 @@ body {
 
     margin: 0;
     width: 100%;
-    height: 100vh;
+    height: 808px;
     background: url("assets/start-screen-gradient-background.png") center no-repeat;
     -webkit-background-size: cover;
 }
@@ -92,9 +93,47 @@ body {
 }
 
 .intro_inner_right {
-    top: 180px;
-    position: absolute;
-    width: 698px;
     height: 728px;
+    width: 698px;
+    top: 180px;
+    border-radius: 0px;
+    position: absolute;
     left: calc(50% - 698px / 2 + 251px);
+}
+.about{
+    background: #ffff;
+    max-height: 588px;
+    color: #4C4C4C;
+    font-family: Arial, serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0;
+    text-align: left;
+    position: center;
+
+}
+.about_left{
+    position: relative;
+    top: 80px;
+    width: 500px;
+    bottom: 451px;
+    left: 215px;
+}
+.about_right{
+    position: relative;
+    top: -300px ;
+    width: 430px;
+    left: 635px;
+}
+.about_title{
+    font-family: Georgia, serif;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 45px;
+    letter-spacing: 0.06em;
+    text-align: left;
+    color: #545454;
 }
